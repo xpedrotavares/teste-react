@@ -4,3 +4,42 @@
     background-size: cover;
     background-position: center;
 }
+
+
+.negative-logo-div{
+    height: 25vh;
+}
+.negative-logo{
+    width: 150px;
+}
+.form-div{
+    height: 65vh;
+    
+}
+.div-h1{
+    width: 90vw;
+}
+
+.input-group{
+    width: 90vw;
+}
+
+input{
+    font-size: 12px!important;
+    height: 38px!important;
+}
+span{
+    font-size: 10px;
+}
+button{
+    background-color: #39b54a!important;
+    font-weight: 600!important;
+    
+}
+
+h1{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left!important;
+}
