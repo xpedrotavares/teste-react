@@ -6,48 +6,59 @@ import "../assets/styles/LandingPage.css";
 import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
 import FormControl from "react-bootstrap/FormControl";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container"
 
-import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import logoNegative from "../assets/images/logo-white.jpg";
 
 const LandingPage = () => {
   return (
-    <div className="landingpage-container">
+    <div className="landingpage-container d-flex flex-column align-items-center">
       <div className="negative-logo-div d-flex justify-content-center align-items-center">
         <img className="negative-logo" src={logoNegative} alt="background" />
       </div>
+<Container className="justify-content-center">
 
-      <div className="form-div d-flex flex-column justify-content-center align-items-center">
-            <div className="div-h1 mb-2">
-
-          <h1 > Descubra os melhores <br/> restaurantes da sua cidade</h1>
-          
-            </div>
-            
-        <InputGroup className="mb-3">
-        <InputGroup.Prepend>
-
-      <InputGroup.Text>
-      <FontAwesomeIcon icon={faMapMarkerAlt} />
-      </InputGroup.Text>
-    </InputGroup.Prepend>
-          <FormControl
-        //   {}
-           
-            placeholder='Digite sua cidade'
-            aria-label="Digite a sua cidade"
-            aria-describedby="basic-addon2"
-          />
-  
+      <Row xs={12} sm={12} md={12} lg={12} xl={12} className="m-0 d-flex justify-content-center
+      ">
+        <Col  xs={12} sm={12} md={12} lg={10} xl={11}>
+          <div className="form-div d-flex flex-column justify-content-center align-items-left">
+            <div className="div-h1">
+              <h1 className="align-self-start">
               
-          
-          <InputGroup.Append>
-            <Button className="ml-1" variant="success"> Buscar</Button>
-          </InputGroup.Append>
-        </InputGroup>
-      </div>
+                Descubra os melhores <br /> restaurantes em sua cidade
+              </h1>
+            </div>
+
+            <InputGroup className="mb-3">
+              <InputGroup.Prepend>
+                <InputGroup.Text className="justify-content-center">
+                  <FontAwesomeIcon icon={faMapMarkerAlt} />
+                </InputGroup.Text>
+              </InputGroup.Prepend>
+              <FormControl
+                //   {}
+                
+                placeholder="Digite sua cidade"
+                aria-label="Digite a sua cidade"
+                aria-describedby="basic-addon2"
+                />
+
+              <InputGroup.Append>
+                <Button  className="ml-1" variant="success">
+                  {" "}
+                  Buscar
+                </Button>
+              </InputGroup.Append>
+            </InputGroup>
+          </div>
+        </Col>
+      </Row>
+                </Container>
     </div>
   );
 };
