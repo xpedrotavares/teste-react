@@ -3,7 +3,7 @@ import React from 'react';
 import './assets/styles/body.css'
 import "bootstrap/dist/css/bootstrap.css";
 
-import LandingPage from './components/LandingPage'
+import LandingPage from './common/components/LandingPage'
 
 function App() {
   return (
