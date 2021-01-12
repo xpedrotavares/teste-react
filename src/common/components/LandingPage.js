@@ -13,13 +13,13 @@ import Container from "react-bootstrap/Container"
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import logoNegative from "../assets/images/logo-white.jpg";
+import whiteLogo from "../assets/images/logo-white.jpg";
 
 const LandingPage = () => {
   return (
     <div className="landingpage-container d-flex flex-column align-items-center">
-      <div className="negative-logo-div d-flex justify-content-center align-items-center">
-        <img className="negative-logo" src={logoNegative} alt="background" />
+      <div className="white-logo-div d-flex justify-content-center align-items-center">
+        <img className="negative-logo" src={whiteLogo} alt="background" />
       </div>
 <Container className="justify-content-center">
 
@@ -28,7 +28,7 @@ const LandingPage = () => {
         <Col  xs={12} sm={12} md={12} lg={10} xl={11}>
           <div className="form-div d-flex flex-column justify-content-center align-items-left">
             <div className="div-h1">
-              <h1 className="align-self-start">
+              <h1 className="h1-landingpage align-self-start">
               
                 Descubra os melhores <br /> restaurantes em sua cidade
               </h1>
@@ -49,7 +49,7 @@ const LandingPage = () => {
                 />
 
               <InputGroup.Append>
-                <Button  className="ml-1" variant="success">
+                <Button  className="search-button ml-1" variant="success">
                   {" "}
                   Buscar
                 </Button>

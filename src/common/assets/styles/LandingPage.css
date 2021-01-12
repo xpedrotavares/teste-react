@@ -10,7 +10,7 @@
     font-size: 22px;
 }
 
-.negative-logo-div{
+.white-logo-div{
     height: 25vh;
     position: absolute;
 }
@@ -43,13 +43,13 @@ span{
     /* font-size: 250px; */
 }
 
-button{
+.search-button{
     background-color: #39b54a!important;
     font-weight: 600!important; 
     width: 100px;
 }
 
-h1{
+.h1-landingpage{
     color: white;
     font-size: 40pt;
     font-weight: 800;
@@ -120,7 +120,7 @@ h1{
      font-size: 30pt!important;
     }
 
-    button{
+    .search-button{
         width: 100px;
     }
 
