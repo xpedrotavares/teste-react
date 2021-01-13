@@ -1,4 +1,8 @@
-import React from "react";
+import React, {useEffect, useState, useContext} from "react";
+import {ApiDataContext} from '../../server/api/ApiDataContext'
+import axios from 'axios'
+
+import api from '../../server/api/api';
 
 import "../assets/styles/Restaurants.css";
 
@@ -18,6 +22,26 @@ import redLogo from "../assets/images/logo-red.jpg";
 import food from "../assets/images/teste.jpg"
 
 const Restaurants = () => {
+const [data] = useContext(ApiDataContext);
+
+// const [data, setData] = useState();  
+
+// async function getApiData() {
+//   const response = axios.get(api)
+//   setData([response.data])
+//   console.log(response.data)
+// }
+
+// useEffect(() => {
+//   getApiData();
+  
+// }, [])
+
+// useEffect(async () =>{
+//   const response = await fetch(api)
+
+// })
+
   return (
     <div className="restaurants-container d-flex flex-column justify-content-center pt-4">
       <div>
