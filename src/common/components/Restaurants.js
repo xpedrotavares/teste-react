@@ -7,15 +7,14 @@ import Button from "react-bootstrap/Button";
 import FormControl from "react-bootstrap/FormControl";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
-import Card from 'react-bootstrap/Card'
+import Card from "react-bootstrap/Card";
 
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import redLogo from "../assets/images/logo-red.jpg";
-import food from "../assets/images/teste.jpg"
+import food from "../assets/images/teste.jpg";
 
 const Restaurants = () => {
   return (
@@ -28,7 +27,6 @@ const Restaurants = () => {
             alt="preencher"
           />
 
-          {/* <div className="d-flex flex-column "> */}
           <div className="searchbar-div-restaurants d-flex justify-content-end align-items-center">
             <div className="form-div-restaurants ">
               <InputGroup className="justify-content-center">
@@ -38,8 +36,6 @@ const Restaurants = () => {
                   </InputGroup.Text>
                 </InputGroup.Prepend>
                 <FormControl
-                  //   {}
-
                   placeholder="Digite sua cidade"
                   aria-label="Digite a sua cidade"
                   aria-describedby="basic-addon2"
@@ -54,7 +50,7 @@ const Restaurants = () => {
               </InputGroup>
             </div>
           </div>
-          {/* </div> */}
+       
         </div>
       </div>
       <div className="m-3">
@@ -292,60 +288,83 @@ const Restaurants = () => {
               </section>
             </div>
           </Col>
-          
+
           <Col md={10}>
+          
+            {/*
+             FAZER O MAP DOS CARDS E PROPERTIES
+              */}
 
-            <div className="cards-div d-flex align-items-start" >
+            <div className="cards-div d-flex align-items-start">
               <Card className="m-2" style={{ width: "27rem" }}>
-                <Card.Img variant="top" style={{height: "15rem"}} src={food} />
+                <Card.Img
+                  variant="top"
+                  style={{ height: "15rem" }}
+                  src={food}
+                />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Text>
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  <Button className="mr-3" variant="success">Go somewhere</Button>
+                  <Button className="mr-3" variant="success">
+                    Go somewhere
+                  </Button>
                   <Button variant="secondary">Go somewhere</Button>
-
                 </Card.Body>
               </Card>
               <Card className="m-2" style={{ width: "27rem" }}>
-                <Card.Img variant="top" style={{height: "15rem"}} src={food} />
+                <Card.Img
+                  variant="top"
+                  style={{ height: "15rem" }}
+                  src={food}
+                />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Text>
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  <Button className="mr-3" variant="success">Go somewhere</Button>
+                  <Button className="mr-3" variant="success">
+                    Go somewhere
+                  </Button>
                   <Button variant="secondary">Go somewhere</Button>
-
                 </Card.Body>
               </Card>
               <Card className="m-2" style={{ width: "27rem" }}>
-                <Card.Img variant="top" style={{height: "15rem"}} src={food} />
+                <Card.Img
+                  variant="top"
+                  style={{ height: "15rem" }}
+                  src={food}
+                />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Text>
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  <Button className="mr-3" variant="success">Go somewhere</Button>
+                  <Button className="mr-3" variant="success">
+                    Go somewhere
+                  </Button>
                   <Button variant="secondary">Go somewhere</Button>
-
                 </Card.Body>
               </Card>
               <Card className="m-2" style={{ width: "27rem" }}>
-                <Card.Img variant="top" style={{height: "15rem"}} src={food} />
+                <Card.Img
+                  variant="top"
+                  style={{ height: "15rem" }}
+                  src={food}
+                />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Text>
                     Some quick example text to build on the card title
-                    
                   </Card.Text>
-                  <Button className="mr-3" variant="success">Go somewhere</Button>
+                  <Button className="mr-3" variant="success">
+                    Go somewhere
+                  </Button>
                   <Button variant="secondary">Go somewhere</Button>
-
                 </Card.Body>
               </Card>
             </div>

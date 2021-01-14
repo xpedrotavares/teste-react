@@ -1,87 +1,64 @@
-.restaurants-container{
-    height: 100vh;
-    width: 100vw;
-   background-color: #FAFAFA;
-}
-.red-logo{
-width: 150px;
-
+.restaurants-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fafafa;
 }
 
-@media (-width: 768px){
-    .restaurants-container{
-        display: flex;
-        flex-direction: column!important;
-        margin: 0!important;
-        padding: 0!important;
-    }
-    .red-logo{
-        width: 80px;
-    } 
-}
-.top-div-restaurants{
-    /* border: 1px solid blue; */
-    
-        height: 10vh;
-    width: 100vw;
-    margin: 0;
-    -webkit-box-shadow: 0px 2px 9px -4px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 2px 9px -4px rgba(0,0,0,0.75);
-box-shadow: 0px 2px  7px -4px rgba(0,0,0,0.75);
-}
-.searchbar-div-restaurants{
-    width: 100%;
-    height: 100%;
-}
-/* .row-test{
-   width: ; 
-} */
-
-.form-div-restaurants{
-    width: 90%;
+.red-logo {
+  width: 150px;
 }
 
-.aside-filters{
-    height: 88vh;
-    /* border: 1px solid springgreen; */
-    overflow-y: scroll;
-    -webkit-box-shadow: 0px 0px 9px -4px rgba(48, 48, 48, 0.747);
-    -moz-box-shadow: 0px 0px 9px -4px rgba(48, 48, 48, 0.747);
-    box-shadow: 0px 0px 9px -4px rgba(48, 48, 48, 0.747);
-
+@media (-width: 768px) {
+  .restaurants-container {
+    display: flex;
+    flex-direction: column !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .red-logo {
+    width: 80px;
+  }
+}
+.top-div-restaurants {
+  height: 10vh;
+  width: 100vw;
+  margin: 0;
+  -webkit-box-shadow: 0px 2px 9px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 9px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 7px -4px rgba(0, 0, 0, 0.75);
+}
+.searchbar-div-restaurants {
+  width: 100%;
+  height: 100%;
 }
 
-.cards-div{
-    /* border: 1px solid olive; */
-    height: 90vh;
-    flex-wrap: wrap;
+.form-div-restaurants {
+  width: 90%;
 }
 
-.h6-filters{
-    font-size: 15pt;
-    font-weight: 300;
-    color: #A5A5A5;
-}
-.checkbox-input{
-    height: 17px!important;
-}
-
-label{
-color: #484848;
-font-size: 13pt;
-
-
+.aside-filters {
+  height: 88vh;
+  overflow-y: scroll;
+  -webkit-box-shadow: 0px 0px 9px -4px rgba(48, 48, 48, 0.747);
+  -moz-box-shadow: 0px 0px 9px -4px rgba(48, 48, 48, 0.747);
+  box-shadow: 0px 0px 9px -4px rgba(48, 48, 48, 0.747);
 }
 
-
-
-.div-filter-nota{
-    
-}
-/* .input-icon{
-    height: 48px;
+.cards-div {
+  height: 90vh;
+  flex-wrap: wrap;
 }
 
-.button-input{
-    height: 48px;
-} */
+.h6-filters {
+  font-size: 15pt;
+  font-weight: 300;
+  color: #a5a5a5;
+}
+.checkbox-input {
+  height: 17px !important;
+}
+
+label {
+  color: #484848;
+  font-size: 13pt;
+}

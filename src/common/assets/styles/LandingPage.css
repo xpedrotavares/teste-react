@@ -21,26 +21,12 @@
 
 .form-div{
     height: 100vh;
-    /* position: absolute; */
-    /* box-sizing: content-box; */
-}
-
-.div-h1{
-    /* max-width: 90vw; */
-}
-
-.input-group{
-    /* max-width: 90vw; */
 }
 
 input{
     font-size: 24px!important;
     height: 48px!important;
     font-weight: 300!important;
-}
-
-span{
-    /* font-size: 250px; */
 }
 
 .search-button{
@@ -56,33 +42,6 @@ span{
     text-align: left!important;
     margin-bottom: 35px;
 }
-
-.row{
-    /* max-width: 100%; */
-}
-
-/* @media (min-width: 1150px){
-    input{
-        font-size: 24px!important;
-        height: 48px!important;
-        
-    }
-    
-    h1{
-     font-size: 40pt!important;
-    }
-
-    button{
-        width: 100px;
-    }
-
-    .input-group-text{
-        width: 50px;
-        font-size: 22px;
-    }
-
-
- } */
 
  @media (max-width: 768px){
     input{
@@ -130,4 +89,4 @@ span{
     }
 
 }
-/* @include media-breakpoint-up(xl) { ... } */
+
