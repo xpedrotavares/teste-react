@@ -28,12 +28,16 @@ const LandingPage = (props) => {
   const api_url =
     "https://developers.zomato.com/api/v2.1/locations?query=new%20york";
 
-  useEffect(() => {
-    const results = cityData.filter((city) =>
-      city.toLowerCase().includes(searchTerm)
-    );
-    setSearchResults(results);
-  }, [cityData && searchTerm]);
+
+  //  useEffect COMENTADO PARA FUNCIONAR FRONT
+
+
+  // useEffect(() => {
+  //   const results = cityData.filter((city) =>
+  //     city.toLowerCase().includes(searchTerm)
+  //   );
+  //   setSearchResults(results);
+  // }, [cityData && searchTerm]);
 
   return (
     <div className="landingpage-container d-flex flex-column align-items-center">

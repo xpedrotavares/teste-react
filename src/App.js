@@ -20,7 +20,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/restaurants" component={Restaurants} />
-        
+        {/* fazer a rota para 404 */}
       </Switch>
     </Router>
     </ApiDataProvider>
